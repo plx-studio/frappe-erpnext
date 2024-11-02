@@ -1,12 +1,12 @@
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_title = "CGIC ERP"
+app_publisher = "Pierlex"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_email = "hello@pierlex.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = ""
 app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
 
 
@@ -14,7 +14,7 @@ add_to_apps_screen = [
 	{
 		"name": "erpnext",
 		"logo": "/assets/erpnext/images/erpnext-logo-blue.png",
-		"title": "ERPNext",
+		"title": "CGIC ERP",
 		"route": "/app/home",
 		"has_permission": "erpnext.check_app_permission",
 	}

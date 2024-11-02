@@ -8893,7 +8893,7 @@ This is a crucial piece of configuration. There are various account settings in 
 
 The following settings are avaialble for you to configure
 
-1. Account Freezing 
+1. Account Freezing
 2. Credit and Overbilling
 3. Invoicing and Tax Automations
 4. Balance Sheet configurations
@@ -8904,7 +8904,7 @@ Dies ist eine entscheidende Konfiguration. Es gibt verschiedene Kontoeinstellung
 
 Die folgenden Einstellungen sind verfügbar für Sie
 
-1. Konto einfrieren 
+1. Konto einfrieren
 2. Kredit- und Überabrechnung
 3. Rechnungs- und Steuerautomationen
 4. Bilanzkonfigurationen
@@ -9087,12 +9087,12 @@ Ein Arbeitsauftrag oder ein Job wird von der Produktionsleitung an die Fertigung
 
 Item is a product or a service offered by your company, or something you buy as a part of your supplies or raw materials.
 
-Items are integral to everything you do in ERPNext - from billing, purchasing to managing inventory. Everything you buy or sell, whether it is a physical product or a service is an Item. Items can be stock, non-stock, variants, serialized, batched, assets, etc.
+Items are integral to everything you do in CGIC - from billing, purchasing to managing inventory. Everything you buy or sell, whether it is a physical product or a service is an Item. Items can be stock, non-stock, variants, serialized, batched, assets, etc.
 ","# Artikel erstellen
 
 Ein Artikel ist ein Produkt oder eine Dienstleistung, die von Ihrem Unternehmen angeboten wird, oder etwas, das Sie als Teil Ihrer Vorräte oder Rohmaterialien kaufen.
 
-Artikel sind ein integraler Bestandteil aller Vorgänge in ERPNext - von der Rechnungsstellung über den Einkauf bis hin zur Bestandsverwaltung. Alles, was Sie kaufen oder verkaufen, egal ob es sich um ein physisches Produkt oder eine Dienstleistung handelt, ist ein Artikel. Artikel können mit Lagerhaltung, ohne Lagerhaltung, in Varianten, in Seriennummern, in Chargen, als Anlagegüter usw. sein.
+Artikel sind ein integraler Bestandteil aller Vorgänge in CGIC - von der Rechnungsstellung über den Einkauf bis hin zur Bestandsverwaltung. Alles, was Sie kaufen oder verkaufen, egal ob es sich um ein physisches Produkt oder eine Dienstleistung handelt, ist ein Artikel. Artikel können mit Lagerhaltung, ohne Lagerhaltung, in Varianten, in Seriennummern, in Chargen, als Anlagegüter usw. sein.
 ",
 "# Create an Item
 The Stock module deals with the movement of items.
@@ -9287,14 +9287,14 @@ Lager werden in ERPNext in einer baumartigen Struktur angeordnet, wobei mehrere 
 In diesem Schritt sehen wir uns den [**Lagerbaum**] (https://docs.erpnext.com/docs/user/manual/en/stock/warehouse#21-tree-view) an, um die [**Lager**] (https://docs.erpnext.com/docs/user/manual/en/stock/warehouse) zu sehen, die standardmäßig eingestellt sind.",
 "## Products and Services
 
-Depending on the nature of your business, you might be selling products or services to your clients or even both. 
+Depending on the nature of your business, you might be selling products or services to your clients or even both.
 ERPNext is optimized for itemized management of your sales and purchase.
 
 The **Item Master**  is where you can add all your sales items. If you are in services, you can create an Item for each service that you offer. If you run a manufacturing business, the same master is used for keeping a record of raw materials, sub-assemblies etc.
 
 Completing the Item Master is very essential for the successful implementation of ERPNext. We have a brief video introducing the item master for you, you can watch it in the next step.","## Produkte und Dienstleistungen
 
-Je nach Art Ihres Unternehmens verkaufen Sie Ihren Kunden Produkte oder Dienstleistungen oder beides. 
+Je nach Art Ihres Unternehmens verkaufen Sie Ihren Kunden Produkte oder Dienstleistungen oder beides.
 ERPNext ist für die Verwaltung Ihrer Verkäufe und Einkäufe pro Artikel optimiert.
 
 Im Artikelstamm können Sie alle Ihre Verkaufsartikel erfassen. Wenn Sie ein Dienstleistungsunternehmen sind, können Sie für jede Dienstleistung, die Sie anbieten, einen Artikel anlegen. Wenn Sie ein produzierendes Unternehmen sind, wird derselbe Artikelstamm für die Erfassung von Rohstoffen, Halbfertigprodukten usw. verwendet.
@@ -9315,11 +9315,11 @@ Jedem Kunden muss eine eindeutige ID zugewiesen werden. Der Name des Kunden selb
 Lassen Sie uns, genau wie beim Lieferanten, schnell einen Kunden anlegen.",
 "## Who is a Supplier?
 
-Suppliers are companies or individuals who provide you with products or services. ERPNext has comprehensive features for purchase cycles. 
+Suppliers are companies or individuals who provide you with products or services. ERPNext has comprehensive features for purchase cycles.
 
 Let's quickly create a supplier with the minimal details required. You need the name of the supplier, assign the supplier to a group, and select the type of the supplier, viz. Company or Individual.","## Wer ist ein Lieferant?
 
-Lieferanten sind Unternehmen oder Einzelpersonen, die Ihnen Produkte oder Dienstleistungen zur Verfügung stellen. ERPNext verfügt über umfassende Funktionen für Einkaufszyklen. 
+Lieferanten sind Unternehmen oder Einzelpersonen, die Ihnen Produkte oder Dienstleistungen zur Verfügung stellen. ERPNext verfügt über umfassende Funktionen für Einkaufszyklen.
 
 Lassen Sie uns schnell einen Lieferanten mit den minimal erforderlichen Details anlegen. Sie benötigen den Namen des Lieferanten, müssen den Lieferanten einer Gruppe zuordnen und den Typ des Lieferanten auswählen, d. h. Unternehmen oder Einzelperson.",
 % Finished Item Quantity,% fertige Artikelmenge,
@@ -9437,7 +9437,7 @@ Sie können <a href=""https://jinja.palletsprojects.com/en/2.11.x/"" target=""_b
 
 <pre>Contract for Customer {{ party_name }}
 
--Valid From : {{ start_date }} 
+-Valid From : {{ start_date }}
 -Valid To : {{ end_date }}
 </pre>
 
@@ -9451,7 +9451,7 @@ Sie können <a href=""https://jinja.palletsprojects.com/en/2.11.x/"" target=""_b
 
 <pre>Vertrag für einen Kunden {{ party_name }}
 
--Gültig von : {{ start_date }} 
+-Gültig von : {{ start_date }}
 -Gültig bis : {{ end_date }}
 </pre>
 
@@ -9466,7 +9466,7 @@ Sie können <a href=""https://jinja.palletsprojects.com/en/2.11.x/"" target=""_b
 
 <pre>Delivery Terms for Order number {{ name }}
 
--Order Date : {{ transaction_date }} 
+-Order Date : {{ transaction_date }}
 -Expected Delivery Date : {{ delivery_date }}
 </pre>
 
@@ -9480,7 +9480,7 @@ Sie können <a href=""https://jinja.palletsprojects.com/en/2.11.x/"" target=""_b
 
 <pre>Lieferbedingungen für Bestellnummer {{ name }}
 
--Bestelldatum : {{ transaction_date }} 
+-Bestelldatum : {{ transaction_date }}
 -erwartetes Lieferdatum : {{ delivery_date }}
 </pre>
 
@@ -9599,7 +9599,7 @@ Sie können <a href=""https://jinja.palletsprojects.com/en/2.11.x/"" target=""_b
 
         </td>
          <td>
-                   <p><b>Example: </b> doc.doctype == ""Stock Entry"" and doc.purpose == ""Manufacture""</p>    
+                   <p><b>Example: </b> doc.doctype == ""Stock Entry"" and doc.purpose == ""Manufacture""</p>
           </td>
 </tr>
 
@@ -9634,7 +9634,7 @@ Sie können <a href=""https://jinja.palletsprojects.com/en/2.11.x/"" target=""_b
 
         </td>
          <td>
-                   <p><b>Beispiel: </b> doc.doctype == ""Lagereintrag"" und doc.purpose == ""Herstellung""</p>    
+                   <p><b>Beispiel: </b> doc.doctype == ""Lagereintrag"" und doc.purpose == ""Herstellung""</p>
           </td>
 </tr>
 
@@ -10508,8 +10508,8 @@ If enabled then system won't override the picked qty / batches / serial numbers.
 "If enabled, a print of this document will be attached to each email","Falls aktiviert, wird ein Ausdruck dieses Dokuments an jede E-Mail angehängt",
 "If enabled, additional ledger entries will be made for discounts in a separate Discount Account","Falls aktiviert, werden zusätzliche Buchungen für Rabatte in einem separaten Rabattkonto vorgenommen",
 "If enabled, all files attached to this document will be attached to each email","Falls aktiviert, werden alle Dateien, die an dieses Dokument angehängt sind, an jede E-Mail angehängt",
-"If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial 
- / Batch Bundle. ","Wenn diese Option aktiviert ist, werden die Serien-/Chargenwerte in den Bestandstransaktionen bei der Erstellung eines automatischen Serien- 
+"If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial
+ / Batch Bundle. ","Wenn diese Option aktiviert ist, werden die Serien-/Chargenwerte in den Bestandstransaktionen bei der Erstellung eines automatischen Serien-
  / Chargenbündels nicht aktualisiert. ",
 "If enabled, ledger entries will be posted for change amount in POS transactions","Wenn aktiviert, werden Buchungssätze für Wechselgeld in POS-Transaktionen erstellt",
 "If enabled, the consolidated invoices will have rounded total disabled","Falls aktiviert, wird bei konsolidierten Rechnungen die gerundete Summe deaktiviert",
@@ -10714,7 +10714,7 @@ Let's Set Up the Buying Module.,Lassen Sie uns den Einkauf einrichten.,
 Let's Set Up the Manufacturing Module.,Lassen Sie uns die Fertigung einrichten.,
 Let's Set Up the Selling Module.,Lassen Sie uns den Vertrieb einrichten.,
 Let's Set Up the Stock Module.,Lassen Sie uns die Lagerhaltung einrichten.,
-Let's begin your journey with ERPNext,Beginnen wir Ihre Reise mit ERPNext,
+Let's begin your journey with CGIC,Beginnen wir Ihre Reise mit CGIC,
 Let's create a Purchase Receipt,Lassen Sie uns einen Eingangsbeleg erstellen,
 Let's create a new Asset item,Lassen Sie uns einen neuen Vermögensgegenstand-Artikel erstellen,
 Let's review existing Asset Category,Lassen Sie uns die bestehende Vermögensgegenstand-Kategorie überprüfen,

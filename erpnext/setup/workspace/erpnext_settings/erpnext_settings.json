@@ -10,7 +10,7 @@
    "icon": "setting",
    "idx": 0,
    "is_hidden": 0,
-   "label": "ERPNext Settings",
+   "label": "CGIC ERP Settings",
    "links": [
     {
      "dependencies": "",
@@ -496,5 +496,5 @@
      "type": "DocType"
     }
    ],
-   "title": "ERPNext Settings"
+   "title": "CGIC ERP Settings"
   }
